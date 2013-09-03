@@ -6,4 +6,7 @@ version := "1.0"
 
 retrieveManaged := true
 
-libraryDependencies += "org.scala-tools.time" % "time_2.9.1" % "0.5"
+libraryDependencies ++= Seq(
+	"org.scala-tools.time" % "time_2.9.1" % "0.5",
+	"org.scalaj" %% "scalaj-http" % "0.3.10"
+)

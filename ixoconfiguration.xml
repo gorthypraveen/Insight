@@ -1,0 +1,11 @@
+<config>
+	<project name="inlineecspartaweb"/>
+	<application name = "inlineec" pool="inlineecspartaweb_ca">
+		<event name = "LoadingActions"/>
+		<event name = "InitActions"/>
+	</application>
+	<application name = "purchaseserv" pool="purchaseserv_ca">
+		<event name = "Test1"/>
+		<event name = "Test2"/>
+	</application>
+</config>
